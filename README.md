@@ -24,11 +24,11 @@ Ao abrir o Fôlego pela primeira vez, você cria uma conta **neste aparelho** co
 | **Relatórios** | Linha do tempo de 12 meses (passado real + futuro já comprometido), comparação com o mês anterior, gastos por categoria e por forma de pagamento |
 | **Ajustes** | Perfil e renda, limite de uso do cartão, saldo da conta, **modo claro, escuro ou automático**, **6 cores de tema**, **categorias personalizadas**, instalação no celular, backup e **importação de extrato em CSV** |
 
-No celular, as abas viram uma barra inferior. O botão **+** lança um gasto ou uma entrada de qualquer tela. Excluiu algo sem querer? Toque em **Desfazer** no aviso que aparece embaixo.
+No celular, as abas ficam numa barra inferior com o botão **+** no centro, ao alcance do polegar. No Início, atalhos levam direto a registrar gasto, registrar entrada, ver a fatura e guardar dinheiro. Excluiu algo sem querer? Toque em **Desfazer** no aviso que aparece embaixo.
 
-![Login](preview-login.png)
-![Início](preview-inicio.png)
-![Cartões](preview-cartoes.png)
+<p><img src="preview-celular-inicio.png" width="260" alt="Início no celular"> <img src="preview-celular-cartoes.png" width="260" alt="Cartões no celular"></p>
+
+![Início no computador](preview-inicio.png)
 
 ## Como as contas funcionam
 
@@ -72,7 +72,9 @@ Tudo fica criptografado no `localStorage` do navegador. Nada é enviado para ser
 
 ## Tecnologia
 
-HTML, CSS e JavaScript puro, sem frameworks nem build. O app é um único `index.html`; `manifest.webmanifest` e `sw.js` o tornam instalável e offline (PWA). Gráficos em SVG feitos à mão, fonte [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) e cores dos gráficos verificadas para daltonismo.
+HTML, CSS e JavaScript puro, sem frameworks nem build. O app é um único `index.html`; `manifest.webmanifest` e `sw.js` o tornam instalável e offline (PWA). Gráficos em SVG feitos à mão.
+
+**Visual:** fonte [DM Sans](https://fonts.google.com/specimen/DM+Sans) embutida no próprio arquivo (funciona offline e sem chamar servidores de terceiros), ícones [Lucide](https://lucide.dev), azul profundo como cor principal, números tabulares nos valores e verde, âmbar e vermelho reservados para status (pago, atenção, atraso). As licenças estão na pasta `licencas/`.
 
 ## Licença
 

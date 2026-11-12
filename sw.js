@@ -1,6 +1,6 @@
 // Fôlego · service worker: deixa o app abrir sem internet.
 // Ao publicar uma versão nova, mude o número abaixo para forçar a atualização.
-const CACHE = "folego-v2";
+const CACHE = "folego-v3";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
